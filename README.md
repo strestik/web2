@@ -17,8 +17,9 @@
 3. **Interaktivní stránka**
    
 
-4. **tr**
+4. **Inspirace**
 
+Inspirací byla tato prezentace 
 
 5. **Zdroje**
 
