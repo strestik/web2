@@ -7,20 +7,20 @@
 - **Geografická oblast:** [Např. "Česká republika, ale plánujeme expanze do dalších zemí."]
 - **Zájmy:** [Např. "zdraví, fitness, životní styl, technika, móda."]
 
-## 3. Požadované stránky
+## 3. Obsah a požadované stránky
 1. **Domovská stránka**
 
 
-2. **O nás**
+2. **Informační stránka**
 
 
-3. **Produkty / Služby**
+3. **Interaktivní stránka**
    
 
-4. **Blog / Novinky**
+4. **tr**
 
 
-5. **Kontakt**
+5. **Zdroje**
 
 6. **FAQ (Často kladené otázky)**
 
