@@ -2,12 +2,10 @@
 ## 1. Účel webu
 **Zaujmou, fascinovat a informovat o světě kvantové fyziky.**
 ## 2. Cílová skupina
-- **Primární cílová skupina:** Zvídaví lidé všeho věku se zájmem o Kvantovou fyziku.
-- **Sekundární cílová skupina:** [Např. "technologičtí nadšenci, kteří hledají nové produkty na trhu."]
-- **Geografická oblast:** [Např. "Česká republika, ale plánujeme expanze do dalších zemí."]
-- **Zájmy:** [Např. "zdraví, fitness, životní styl, technika, móda."]
+- **Primární cílová skupina:** Zvídaví lidé všeho věku se zájmem o fyziku.
+- **Geografická oblast:** Česká republika
 
-## 3. Obsah a požadované stránky
+## 3. Obsah a stránky
 1. **Domovská stránka**
 
 
@@ -19,7 +17,7 @@
 
 4. **Inspirace**
 
-Inspirací byla tato prezentace 
+Inspirací byla tato prezentace: https://sstebrnocz-my.sharepoint.com/:p:/r/personal/61824strestik_student_sstebrno_cz/Documents/prezentace_strestik3.pptx?d=w43328f91e38d4968a1d731ead3664688&csf=1&web=1&e=AP70fO
 
 5. **Zdroje**
 
