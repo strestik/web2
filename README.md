@@ -1,6 +1,6 @@
 
 ## 1. Účel webu
-**Zaujmou, fascinovat a informovat o světě kvantové fyziky.**
+**Zaujmout, fascinovat a informovat o světě kvantové fyziky.**
 
 ## 2. Cílová skupina
 - **Primární cílová skupina:** Zvídaví lidé všeho věku se zájmem o fyziku.
@@ -12,8 +12,10 @@
 - principy
 - teorie
 - pojmy
+- jevy
 
 3. **Interaktivní stránka**
+- aplikace
 - experimeny
 
 4. **Zdroje**
