@@ -13,14 +13,15 @@
 - teorie
 - pojmy
 - jevy
+- vzorce
 
 3. **Interaktivní stránka**
 - aplikace
-- experimeny
+- experimenty
 
 4. **Zdroje**
 - (https://shorturl.at/lSFIY)
   
 5. **FAQ (Často kladené otázky)**
 
-## 4. Závěr
+## 4. Shrnutí
