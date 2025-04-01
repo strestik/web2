@@ -20,7 +20,6 @@
 - experimenty
 
 4. **Zdroje**
-- (https://shorturl.at/lSFIY)
   
 5. **FAQ (Často kladené otázky)**
 
