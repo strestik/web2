@@ -13,7 +13,7 @@
 - teorie
 - pojmy
 - jevy
-- vzorce
+- vzorce - tabulky
 
 3. **Interaktivní stránka**
 - aplikace
