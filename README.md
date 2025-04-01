@@ -24,4 +24,9 @@
   
 5. **FAQ (Často kladené otázky)**
 
-## 4. Shrnutí
+6. **Kontakt**
+
+7. **Zásady cookies**
+
+8. **Ochrana osobních údajů**
+
