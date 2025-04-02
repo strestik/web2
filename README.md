@@ -29,3 +29,4 @@
 
 8. **Ochrana osobních údajů**
 
+okaz na github:
