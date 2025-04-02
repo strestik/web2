@@ -29,4 +29,4 @@
 
 8. **Ochrana osobních údajů**
 
-okaz na github:
+okaz na github:https://github.com/strstik/Vlastni-web.git
