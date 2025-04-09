@@ -1,8 +1,10 @@
 body {
   /*background-image: ;*/
-  background-color: rgba(122, 11, 159, 0.904);
+  background-color: #7b337d  ;
   text-align:left;
   margin: 0px;
+  display: flex;
+  flex-direction: column;
 }
 title {
   color: rgb(12, 73, 255);
@@ -11,24 +13,30 @@ title {
 
 .nadp {
   display: flex;
-  background-color: blue;
-  text-align: left;
-  color: white;
+  background-color: rgb(59, 59, 255)  ;
+  text-align: start;
+  gap: 35px;
+  flex-direction: row;
+  justify-content:left;
+  align-items: start;
+  padding-left: 40px;
   /*padding-block: ;*/
-  font-size: 18px;
+  font-size: 28px;
 }
 
 header {
-  color: rgb(52, 40, 233);
+  color: rgb(36, 24, 212);
   font-size: 88px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: start;
 }
 .maintxt { /* no size*/
   display: flex;
-  color: rgb(148, 177, 255); /* inf temp */
+  color:#fbd5e2; /*rgb(148, 177, 255);*/ /* inf temp */
   flex-direction: column;
   align-items: start;
+  padding: 20px;
+  /*justify-content:start;*/
   font-size: 30px;
 }
 
@@ -40,6 +48,10 @@ h1 {
 
 h2 {
   font-size: 58px;
+}
+
+a {
+  color: aquamarine;
 }
 
 .odkz {
@@ -55,3 +67,9 @@ h2 {
   margin-right: 0px;
   gap: 25px;*/
 }
+
+#amaz {
+  display: none;
+  max-width: 300px;
+  margin-top: 20px;
+  }
