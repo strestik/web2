@@ -37,7 +37,7 @@ header {
   align-items: start;
   padding: 20px;
   /*justify-content:start;*/
-  font-size: 30px;
+  font-size: 40px;
 }
 
 h1 {
@@ -67,9 +67,3 @@ a {
   margin-right: 0px;
   gap: 25px;*/
 }
-
-#amaz {
-  display: none;
-  max-width: 300px;
-  margin-top: 20px;
-  }
