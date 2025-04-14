@@ -2,7 +2,7 @@ body {
   /*background-image: ;*/
   background-color: #7b337d  ;
   text-align:left;
-  margin: 0px;
+  margin: 0px; /*tento prvek posouvá všechny jednotlivé div až do okrajů*/
   display: flex;
   flex-direction: column;
 }
@@ -13,16 +13,64 @@ title {
 
 .nadp {
   display: flex;
-  background-color: rgb(59, 59, 255)  ;
-  text-align: start;
-  gap: 35px;
+  background-color: rgb(59, 59, 255);
   flex-direction: row;
-  justify-content:left;
+  justify-content:space-between;
   align-items: start;
-  padding-left: 40px;
-  /*padding-block: ;*/
+}
+
+.nadp > div {
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  margin: 20px;
+  
+}
+
+.ponadp1 {
+  display: flex;
+  gap: 30px;
   font-size: 28px;
 }
+
+.ponadp2 {
+  font-size: 25px;
+}
+
+.hamburger-btn {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -250px; /* skryto mimo obrazovku */
+  width: 250px;
+  height: 100%;
+  background-color: #f2f2f2;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transition: right 0.3s ease;
+  z-index: 999;
+}
+
+.side-menu.open {
+  right: 0; /* vysune se */
+}
+
+.close-btn {
+  align-self: flex-end;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 
 header {
   color: rgb(36, 24, 212);
