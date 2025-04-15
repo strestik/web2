@@ -12,22 +12,30 @@
 // });
 
 
-const menuButton = document.getElementById('menu-button');
-const sideMenu = document.getElementById('side-menu');
-const closeButton = document.getElementById('close-button');
+// const menuButton = document.getElementById('menu-button');
+// const sideMenu = document.getElementById('side-menu');
+// const closeButton = document.getElementById('close-button');
 
-menuButton.addEventListener('click', () => {
-    sideMenu.classList.add('open');
-});
+// menuButton.addEventListener('click', () => {
+//     sideMenu.classList.add('open');
+// });
 
-closeButton.addEventListener('click', () => {
-    sideMenu.classList.remove('open');
-});
+// closeButton.addEventListener('click', () => {
+//     sideMenu.classList.remove('open');
+// });
 
-// volitelně: kliknutí mimo menu ho taky zavře
-document.addEventListener('click', (e) => {
-    if (!sideMenu.contains(e.target) && !menuButton.contains(e.target)) {
-        sideMenu.classList.remove('open');
-    }
-});
+// // volitelně: kliknutí mimo menu ho taky zavře
+// document.addEventListener('click', (e) => {
+//     if (!sideMenu.contains(e.target) && !menuButton.contains(e.target)) {
+//         sideMenu.classList.remove('open');
+//     }
+// });
+
+
+// const toggleBtn = document.getElementById('menu-toggle');
+// const sideMenu = document.getElementById('side-menu');
+
+// toggleBtn.addEventListener('click', () => {
+//   sideMenu.classList.toggle('active');
+// });
 

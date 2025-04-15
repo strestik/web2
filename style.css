@@ -35,7 +35,7 @@ title {
 .ponadp2 {
   font-size: 25px;
 }
-
+/* 
 .hamburger-btn {
   font-size: 24px;
   background: none;
@@ -46,7 +46,7 @@ title {
 .side-menu {
   position: fixed;
   top: 0;
-  right: -250px; /* skryto mimo obrazovku */
+  right: -250px;  
   width: 250px;
   height: 100%;
   background-color: #f2f2f2;
@@ -60,7 +60,7 @@ title {
 }
 
 .side-menu.open {
-  right: 0; /* vysune se */
+  right: 0; 
 }
 
 .close-btn {
@@ -70,7 +70,7 @@ title {
   border: none;
   cursor: pointer;
 }
-
+ */
 
 header {
   color: rgb(36, 24, 212);
@@ -115,3 +115,5 @@ a {
   margin-right: 0px;
   gap: 25px;*/
 }
+
+
