@@ -35,7 +35,7 @@ title {
 .ponadp2 {
   font-size: 25px;
 }
-/* 
+
 .hamburger-btn {
   font-size: 24px;
   background: none;
@@ -46,7 +46,7 @@ title {
 .side-menu {
   position: fixed;
   top: 0;
-  right: -250px;  
+  right: -250px; /* skryto mimo obrazovku */
   width: 250px;
   height: 100%;
   background-color: #f2f2f2;
@@ -60,7 +60,7 @@ title {
 }
 
 .side-menu.open {
-  right: 0; 
+  right: 0; /* vysune se */
 }
 
 .close-btn {
@@ -70,7 +70,7 @@ title {
   border: none;
   cursor: pointer;
 }
- */
+
 
 header {
   color: rgb(36, 24, 212);
@@ -117,3 +117,57 @@ a {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #7b31a7;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #783fd4;
+  color: white;
+}
