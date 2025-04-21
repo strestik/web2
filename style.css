@@ -65,11 +65,10 @@ header {
   align-items: start;
   padding: 20px;
   font-size: 40px;
-  margin-left: 50px ;
-  margin-right: 50px;
-  margin-bottom: 20px;
-  background-color: aqua;
-  border-radius: 20px;
+  /*       /\   >    \/   <     */
+  margin: 20px 40px 30px 40px;
+  background-color: rgb(252, 236, 134);
+  border-radius: 30px;
 }
 
 
