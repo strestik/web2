@@ -1,9 +1,9 @@
 body {
   /*background-image: ;*/
-  background-color: #7b337d  ;
+  background-color: #ffffff ;
+  display: flex;
   text-align:left;
   margin: 0px; /*tento prvek posouvá všechny jednotlivé div až do okrajů*/
-  display: flex;
   flex-direction: column;
 }
 title {
@@ -11,7 +11,7 @@ title {
   font-size: 35px;
 }
 
-.nadp {
+/* .nadp {
   display: flex;
   background-color: rgb(59, 59, 255);
   flex-direction: row;
@@ -20,10 +20,7 @@ title {
 }
 
 .nadp > div {
-  /* padding-top: 10px;
-  padding-bottom: 10px; */
   margin: 20px;
-  
 }
 
 .ponadp1 {
@@ -34,76 +31,99 @@ title {
 
 .ponadp2 {
   font-size: 25px;
-}
+} */
 
-.hamburger-btn {
-  font-size: 24px;
-  background: none;
+hr {
+  background-color: black;
+  min-height: 14px;
+  text-align:left;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  margin-left:0;
   border: none;
-  cursor: pointer;
 }
 
-.side-menu {
-  position: fixed;
-  top: 0;
-  right: -250px; /* skryto mimo obrazovku */
-  width: 250px;
-  height: 100%;
-  background-color: #f2f2f2;
-  box-shadow: -2px 0 5px rgba(0,0,0,0.3);
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  transition: right 0.3s ease;
-  z-index: 999;
+.hr-bottom {
+  background-color: black;
+  min-height: 16px;
+  text-align:left;
+  margin-top: 0px;
 }
-
-.side-menu.open {
-  right: 0; /* vysune se */
-}
-
-.close-btn {
-  align-self: flex-end;
-  font-size: 24px;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
 
 header {
   color: rgb(36, 24, 212);
   font-size: 88px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: start;
+  padding-left: 35px;
+  padding-right: 26px;
 }
 .maintxt { /* no size*/
   display: flex;
-  color:#fbd5e2; /*rgb(148, 177, 255);*/ /* inf temp */
+  color:#000000; /*rgb(148, 177, 255);*/ /* inf temp */
   flex-direction: column;
   align-items: start;
   padding: 20px;
-  /*justify-content:start;*/
   font-size: 40px;
 }
 
+
+/* Underline */
+.underline {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  align-items: flex-start;
+  /* justify-content: center;
+  gap:50px; */
+  border: none;
+}
+
+.underline  div {
+  margin-left:200px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.underline a {
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.structure_underline p {
+  font-size: 22px;
+  margin-left: 30px;
+  color:#000000
+}
+
+.structure_underline {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(22, 94, 104);
+}
+
+
+/*  */
 h1 {
   font-size: 62px;
-  padding-left: 35px;
-  padding-right: 36px;
 }
 
 h2 {
   font-size: 58px;
+  margin-bottom: 2px;
 }
 
 a {
-  color: aquamarine;
+  color: rgb(127, 195, 255);
 }
 
 .odkz {
   font-size: 34px;
+  
 }
 
 .contr {
@@ -118,48 +138,52 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
 .topnav {
   overflow: hidden;
-  background-color: #5456e7; /* barva nadpis */
   position: relative;
+  text-decoration: none;
+}
+
+.topnav div {
+  display:flex;
+  margin-left: 0px;
+  gap: 16px;
+  background-color: #9b54e7; /* barva nadpis */
 }
 
 .topnav #myLinks {
   display: none;
+  background-color:#2f31a9;
+}
+
+.topnav p {
+  display: flex;
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 6px;
+  padding: 16px 12px;
+  text-decoration: underline;
 }
 
 .topnav a {
   color: rgb(0, 0, 0); /* barva textu */
-  padding: 14px 16px;
+  padding: 16px 16px;
   text-decoration: none;
   font-size: 26px;
-  display: block;
+  display: flex;
+  flex-direction: row;
 }
 
 .topnav a.icon {
   background: #ddd;
-  display: block;
+  display: flex;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 0px;
+  top: 0px;
+  height: 32px;
   
 }
 
 .topnav a:hover {
-  background-color: #49a7f3; /* barva nadpisu po přejetí myší */
-  color: black;
-}
-
-.active {
-  background-color: #ffffff;
-  color: white;
+  background-color: #49a7f3;
 }
