@@ -69,8 +69,12 @@ header {
   margin: 20px 40px 30px 40px;
   background-color: rgb(252, 236, 134);
   border-radius: 30px;
+
 }
 
+.mid {
+  background-image: url(https://cdn.pixabay.com/photo/2011/12/14/12/21/christmas-background-11107_1280.jpg);
+}
 
 /* Underline */
 .underline {
@@ -140,7 +144,9 @@ a {
   gap: 25px;*/
 }
 
-
+.tel {
+  background-image: url(https://cdn.pixabay.com/photo/2011/12/14/12/21/christmas-background-11107_1280.jpg);
+}
 
 .topnav {
   overflow: hidden;
