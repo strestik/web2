@@ -63,17 +63,22 @@ header {
   color:#000000; /*rgb(148, 177, 255);*/ /* inf temp */
   flex-direction: column;
   align-items: start;
-  padding: 20px;
+  padding: 24px ;
   font-size: 40px;
   /*       /\   >    \/   <     */
-  margin: 20px 40px 30px 40px;
+  margin: 20px 36px 30px 36px;
   background-color: rgb(252, 236, 134);
   border-radius: 30px;
-
 }
 
+.plain_text {
+  font-size: 30px;
+}
+
+/* https://t3.ftcdn.net/jpg/10/81/24/12/360_F_1081241253_vgQhjP8LzPr9BrweWwHbjPGNCoRD5ohk.jpg */
 .mid {
-  background-image: url(https://cdn.pixabay.com/photo/2011/12/14/12/21/christmas-background-11107_1280.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2011/12/14/12/21/christmas-background-11107_1280.jpg
+);
 }
 
 /* Underline */
@@ -131,7 +136,10 @@ a {
 
 .odkz {
   font-size: 34px;
-  
+  margin: 20px 36px 30px 36px;
+  padding: 24px;
+  background-color: rgb(51, 58, 190);
+  border-radius: 30px;
 }
 
 .contr {
@@ -144,8 +152,10 @@ a {
   gap: 25px;*/
 }
 
+/* https://cdn.pixabay.com/photo/2011/12/14/12/21/christmas-background-11107_1280.jpg */
+/* https://t3.ftcdn.net/jpg/10/81/24/12/360_F_1081241253_vgQhjP8LzPr9BrweWwHbjPGNCoRD5ohk.jpg */
 .tel {
-  background-image: url(https://cdn.pixabay.com/photo/2011/12/14/12/21/christmas-background-11107_1280.jpg);
+  background-image: url();
 }
 
 .topnav {
