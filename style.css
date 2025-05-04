@@ -136,6 +136,7 @@ hr {
   font-size: 26px;
   display: flex;
   flex-direction: row;
+  transition:rgb(22, 94, 104) 0.5s ease;
 }
 
 .topnav a.icon {
