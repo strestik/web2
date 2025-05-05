@@ -136,7 +136,7 @@ hr {
   font-size: 26px;
   display: flex;
   flex-direction: row;
-  transition:rgb(22, 94, 104) 0.5s ease;
+
 }
 
 .topnav a.icon {
@@ -151,6 +151,15 @@ hr {
 
 .topnav a:hover {
   background-color: #49a7f3;
+}
+
+.topnav a.icon img {
+  height: 34px;
+}
+
+.topnav img {
+  height: 60px;
+
 }
 /* Navigation top bar // */
 
@@ -211,13 +220,14 @@ hr {
 .underline {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   align-content: flex-start;
   align-items: flex-start;
   border: none;
 }
 
 .underline  div {
-  margin-left:200px;
+  /* margin-left:200px; */
   display: flex;
   flex-direction: column;
   padding-top: 60px;
@@ -227,9 +237,12 @@ hr {
 .underline a {
   font-size: 28px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-decoration: none;
   color:#ffffff;
+  text-decoration: underline;
+  text-decoration-color: rgb(22, 94, 104);
+  transition: text-decoration-color 0.3s linear;
 }
 
 .underline a:hover {
@@ -239,6 +252,7 @@ hr {
 .structure_underline p {
   font-size: 22px;
   margin-left: 30px;
+  margin-right: 30px;
   color:#ffffff;
 }
 
@@ -246,5 +260,11 @@ hr {
   display: flex;
   flex-direction: column;
   background-color: rgb(22, 94, 104);
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 /* Underline // */
