@@ -15,13 +15,12 @@ title {
 
 header {
   color: rgb(33, 49, 224);
-  font-size: 88px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: start;
   padding-left: 35px;
   padding-right: 26px;
   padding-bottom: 0px;
-  margin: 0px 26px 0px 26px;
+  margin: 12px 26px 12px 26px;
   /* background-image: url(https://garden.spoonflower.com/c/14337772/p/f/m/J0Nq-Vc9czvlskurpSM40DCj5BMYW6D9S3izTNtIkw-SSJT4bLBZYyw/Purple_waves_y2k%2C_trippy_wallpaper_purple_.jpg); */
   background-color: #FDC5F5;
   border-radius: 30px;
@@ -202,23 +201,52 @@ hr {
 }
 
 .contr h1 {
-  font-size: 82px;
+  font-size: 64px;
+}
+
+.contr p {
+  font-size: 32px;
+  margin: 4px;
+  padding: 4px;
+}
+
+.contr hr {
+  width: 100%;
+  min-height: 8px;
+  background-color: rgb(43, 187, 249);
+  margin-top: 0px;
 }
 
 .pics {
   display:flex;
   flex-direction: column;
   align-items: center;
+  max-width: 600px;
+}
+
+.mobile_pics {
+  display: none;
+  flex-direction: column;
+  align-items: center;
 
 }
 
-@media only screen and (max-width:600px) {
-  .contr {
-    width: 0%;
+/* @media only screen and (max-width:1000px) {
+  .contr .pics img{
+    display: none;
+  }
+} */
+
+@media only screen and (max-width:800px) {
+  .contr header h1 {
+    font-size: 38px;
   }
 
-  .contr h1 {
-    font-size: 36px;
+  .contr .pics img{
+    display: none;
+}
+  .contr .mobile_pics {
+    display: flex;
   }
 }
 
@@ -377,3 +405,37 @@ hr {
   justify-content: space-between;
 }
 /* Underline // */
+
+
+
+/* Mobile*/
+@media only screen and (max-width:400px) {
+  .maintxt {
+    font-size: 18px;
+  }
+
+  .maintxt h2 {
+    font-size: 28px;
+  }
+
+  .maintxt .hr-bottom {
+    min-height: 8px;
+  }
+
+  .maintxt hr {
+    min-height: 6px;
+  }
+
+  .contr header h1{
+    font-size: 16px;
+  }
+
+  .contr header p {
+    font-size: 12px;
+  }
+
+  .mobile_pics {
+    display: flex;
+    width: 120px;
+  }
+}
