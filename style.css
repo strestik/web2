@@ -572,7 +572,8 @@ hr {
   }
 
   .odkz .odkazy a {
-    font-size: 8px;
+    font-size: 12px;
+    padding: 12px;
   }
 
   .structure_underline a {
