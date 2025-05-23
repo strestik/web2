@@ -328,13 +328,22 @@ hr {
 .page .maintxt a {
   color: #1468b8;
   text-decoration: none;
-  text-decoration-color: #e8eb52;
+  text-decoration-color: rgb(252, 236, 134);
   transition: text-decoration-color 0.3s linear;
 }
 
 .page .maintxt a:hover {
   text-decoration: underline;
   text-decoration-color: rgb(98, 179, 255);
+}
+
+.page .maintxt button {
+  font-size: 26px;
+  background-color: rgb(252, 236, 134);
+}
+
+.page .maintxt button:hover {
+  background-color: rgb(134, 234, 252);
 }
 
 .page hr {
