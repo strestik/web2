@@ -553,7 +553,7 @@ hr {
     font-size: 28px;
   }
 
-  .contr .pics {
+  .page .contr .pics {
     display: flex;
     flex-direction: column;
     width: 100px;
