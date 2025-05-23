@@ -44,7 +44,7 @@ footer {
   flex-direction: column;
   align-items: start;
   padding: 24px ;
-  font-size: 40px;
+  font-size: 32px;
   /*       /\   >    \/   <     */
   margin: 20px 36px 30px 36px;
   background-color: rgb(252, 236, 134);
@@ -146,6 +146,7 @@ hr {
   font-size: 26px;
   display: flex;
   flex-direction: row;
+  align-items: center;
 
 }
 
@@ -156,7 +157,7 @@ hr {
   right: 0px;
   top: 0px;
   height: 32px;
-  
+  width: 32px;
 }
 
 .topnav a:hover {
@@ -329,12 +330,12 @@ hr {
   color: #1468b8;
   text-decoration: none;
   text-decoration-color: rgb(252, 236, 134);
-  transition: text-decoration-color 0.3s linear;
+  transition: text-decoration-color 0.1s linear;
 }
 
 .page .maintxt a:hover {
   text-decoration: underline;
-  text-decoration-color: rgb(98, 179, 255);
+  text-decoration-color: rgb(109, 180, 247);
 }
 
 .page .maintxt button {
@@ -392,7 +393,7 @@ hr {
   align-items: center;
   text-align: center;
 
-  font-size: 36px;
+  font-size: 32px;
   color: rgb(0, 0, 0);
   text-decoration: none;
   background-color: #62B3FF;
@@ -508,9 +509,10 @@ hr {
   }
   .topnav a {
     font-size: 16px;
+    align-content: center;
   }
   .topnav img {
-    height: 40px;
+    height: 36px;
   }
  
   .topnav .icon {
@@ -519,7 +521,12 @@ hr {
     height: 100%;
     width: 24px;
     align-items: center;
-    justify-content: center;
+    padding: 12px;
+  }
+
+  .topnav a.icon{
+    height: 28px;
+    width: 28px; 
   }
 
   .topnav .icon img {
@@ -576,7 +583,7 @@ hr {
 
   .odkz .odkazy a {
     font-size: 12px;
-    padding: 12px;
+    padding: 10px;
   }
 
   .structure_underline a {
