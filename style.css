@@ -252,7 +252,7 @@ hr {
   }
 
   .contr .pics img{
-    width: 400px;
+    width: auto;
   }
 }
 
@@ -556,8 +556,8 @@ hr {
   .page .contr .pics {
     display: flex;
     flex-direction: column;
-    width: 100px;
-    height: 100px;
+    margin-left: 30px;
+    height: 180px;
   }
 
   .page h2 {
