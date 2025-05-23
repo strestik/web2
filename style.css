@@ -226,7 +226,7 @@ hr {
   align-items: center;
   max-width: 800px;
   max-height: 800px;
-  width: 40%;
+  /* width: 40%; */
   margin: 20px 30px 20px 10px;
 }
 
@@ -256,11 +256,11 @@ hr {
   }
 }
 
-@media only screen and (max-width:1150px) {
+/* @media only screen and (max-width:1150px) {
   .contr .pics img{
     display: none;
   }
-  }
+  } */
 
 @media only screen and (max-width:800px) {
   .contr header h1 {
@@ -339,8 +339,10 @@ hr {
 }
 
 .page .maintxt button {
-  font-size: 26px;
+  font-size: 18px;
   background-color: rgb(252, 236, 134);
+  border-radius: 30px;
+  text-decoration: double;
 }
 
 .page .maintxt button:hover {
@@ -533,6 +535,12 @@ hr {
     width: 28px;
   }
 
+  .contr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .maintxt {
     font-size: 18px;
   }
@@ -545,8 +553,23 @@ hr {
     font-size: 28px;
   }
 
+  .contr .pics {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+  }
+
   .page h2 {
     font-size: 28px;
+  }
+
+  .page .maintxt p {
+    font-size: 18px;
+  }
+
+  .page .maintxt button {
+    font-size: 18px;
   }
 
   .maintxt .hr-bottom {
