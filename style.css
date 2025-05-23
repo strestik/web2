@@ -325,6 +325,18 @@ hr {
   color: #000000; */
 }
 
+.page .maintxt a {
+  color: #1468b8;
+  text-decoration: none;
+  text-decoration-color: #e8eb52;
+  transition: text-decoration-color 0.3s linear;
+}
+
+.page .maintxt a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(98, 179, 255);
+}
+
 .page hr {
   width: 100%;
 }
@@ -445,7 +457,6 @@ hr {
   margin-bottom: 20px;
   text-decoration: none;
   color:#ffffff;
-  text-decoration: underline;
   text-decoration-color: rgb(22, 94, 104);
   transition: text-decoration-color 0.3s linear;
 }
