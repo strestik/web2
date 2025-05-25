@@ -8,14 +8,19 @@ function myFunction() {
   }
 }
 
-// Dynamické nastavení šířky <hr> podle délky textu v <h2>
-// document.addEventListener("DOMContentLoaded", () => {
-//   const textElement = document.querySelector('#home-text h2'); // Najde <h2> uvnitř sekce
-//   const hrElement = document.getElementById('dynamic-hr');
-
-//   if (textElement && hrElement) {
-//     const textLength = 2 * textElement.innerText.length; // Získá délku textu
-//     const hrWidth = Math.min(textLength); 
-//     hrElement.style.width = hrWidth * 1.75 + '%'; // Nastaví šířku
-//   }
-// });
+function superposition(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "images/superp_rolling.gif"
+  }
+  if  (sw == 1) {
+    pic = "images/superp_translation.gif"
+  }
+  if (sw == 2) {
+    pic = "images/superp_rotation.gif"
+  }
+  if (sw == 3) {
+    pic = "https://www.acs.psu.edu/drussell/Demos/superposition/interference.gif"
+  }
+  document.getElementById('superp').src = pic;
+}
