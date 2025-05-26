@@ -30,3 +30,4 @@
 8. **Ochrana osobních údajů**
 
 okaz na github:https://github.com/strstik/Vlastni-web.git
+stránku :https://quantumexplorer.funsite.cz/index.html
