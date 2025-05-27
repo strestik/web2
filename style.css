@@ -19,14 +19,15 @@ header {
   
   text-align: start;
   padding-left: 35px;
-  padding-right: 26px;
+  padding-right: 86px;
   padding-bottom: 0px;
-  margin: 12px 26px 0px 26px;
+  margin: 12px 26px 18px 26px;
   /* background-image: url(https://garden.spoonflower.com/c/14337772/p/f/m/J0Nq-Vc9czvlskurpSM40DCj5BMYW6D9S3izTNtIkw-SSJT4bLBZYyw/Purple_waves_y2k%2C_trippy_wallpaper_purple_.jpg); */
   /* background-color: #FDC5F5; */
 
   border-radius: 30px;
-  text-shadow: 0px 0px 16px rgb(0, 0, 0);
+  text-shadow: 0px 0px 16px rgb(207 207 207 / 88%);
+  background-color: #ffffff8c;
 }
 
 footer {
@@ -45,7 +46,7 @@ footer {
   align-items: start;
   justify-content: center;
   padding: 24px ;
-  font-size: 32px;
+  font-size: 24px;
   /*       /\   >    \/   <     */
   margin: 20px 36px 30px 36px;
   background-color: rgb(252, 236, 134);
