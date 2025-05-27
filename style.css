@@ -30,6 +30,10 @@ header {
   background-color: #ffffff8c;
 }
 
+.sc {
+  margin: 16px 80% 22px 32px;
+}
+
 footer {
   display:flex;
 }
@@ -627,6 +631,10 @@ button {
     display: flex;
     align-self: start;
     margin: 6px 26px 6px 10px;
+  }
+
+  .sc {
+  margin: 16px 45% 22px 32px;
   }
 
   .contr header h1{
