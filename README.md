@@ -3,11 +3,12 @@
 **Zaujmout, fascinovat a informovat o světě kvantové fyziky.**
 
 ## 2. Cílová skupina
-- **Primární cílová skupina:** Zvídaví lidé všeho věku se zájmem o fyziku.
+- **Zvídaví lidé všeho věku se zájmem o fyziku.** 
 
 ## 3. Obsah a stránky
 1. **Domovská stránka**
-
+- uvítání
+  
 2. **Informační stránka**
 - principy
 - teorie
@@ -29,4 +30,4 @@
 
 8. **Ochrana osobních údajů**
 
-odkaz na stránku : https://quantumexplorer.funsite.cz/index.html
+stránka : https://quantumexplorer.funsite.cz/index.html
