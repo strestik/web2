@@ -19,19 +19,14 @@ header {
   
   text-align: start;
   padding-left: 35px;
-  padding-right: 86px;
+  padding-right: 26px;
   padding-bottom: 0px;
-  margin: 12px 26px 18px 26px;
+  margin: 12px 26px 0px 26px;
   /* background-image: url(https://garden.spoonflower.com/c/14337772/p/f/m/J0Nq-Vc9czvlskurpSM40DCj5BMYW6D9S3izTNtIkw-SSJT4bLBZYyw/Purple_waves_y2k%2C_trippy_wallpaper_purple_.jpg); */
   /* background-color: #FDC5F5; */
 
   border-radius: 30px;
-  text-shadow: 0px 0px 16px rgb(207 207 207 / 88%);
-  background-color: #ffffff8c;
-}
-
-.sc {
-  margin: 16px 80% 22px 32px;
+  text-shadow: 0px 0px 16px rgb(0, 0, 0);
 }
 
 footer {
@@ -50,7 +45,7 @@ footer {
   align-items: start;
   justify-content: center;
   padding: 24px ;
-  font-size: 24px;
+  font-size: 32px;
   /*       /\   >    \/   <     */
   margin: 20px 36px 30px 36px;
   background-color: rgb(252, 236, 134);
@@ -129,10 +124,7 @@ button {
 /* Navigation top bar */
 .topnav {
   overflow: hidden;
-  position: sticky; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  box-shadow: 0px 0px 14px #000000;
+  position: relative;
   text-decoration: none;
 }
 
@@ -198,6 +190,7 @@ button {
 /* Background */
 /* https://t3.ftcdn.net/jpg/10/81/24/12/360_F_1081241253_vgQhjP8LzPr9BrweWwHbjPGNCoRD5ohk.jpg */
 .mid {
+  /* background-color: #ffffff; */
   background-image: url(https://cdn.pixabay.com/photo/2011/12/14/12/21/christmas-background-11107_1280.jpg);
   background-attachment: fixed;
 }
@@ -631,10 +624,6 @@ button {
     display: flex;
     align-self: start;
     margin: 6px 26px 6px 10px;
-  }
-
-  .sc {
-  margin: 16px 45% 22px 32px;
   }
 
   .contr header h1{
