@@ -17,16 +17,16 @@ title {
 header {
   color: rgb(0, 18, 216);
   
-  text-align: start;
+  text-align: center;
   padding-left: 35px;
   padding-right: 26px;
   padding-bottom: 0px;
   margin: 12px 26px 0px 26px;
   /* background-image: url(https://garden.spoonflower.com/c/14337772/p/f/m/J0Nq-Vc9czvlskurpSM40DCj5BMYW6D9S3izTNtIkw-SSJT4bLBZYyw/Purple_waves_y2k%2C_trippy_wallpaper_purple_.jpg); */
-  /* background-color: #FDC5F5; */
 
   border-radius: 30px;
-  text-shadow: 0px 0px 16px rgb(0, 0, 0);
+  text-shadow: 0px 0px 16px rgb(207 207 207 / 88%);
+  background-color: #ffffff8c;
 }
 
 footer {
@@ -40,7 +40,7 @@ footer {
 /* Main context */
 .maintxt { /* no size*/
   display: flex;
-  color:#000000; /*rgb(148, 177, 255);*/ /* inf temp */
+  color:#000000; 
   flex-direction: column;
   align-items: start;
   justify-content: center;
@@ -188,13 +188,11 @@ button {
 
 
 /* Background */
-/* https://t3.ftcdn.net/jpg/10/81/24/12/360_F_1081241253_vgQhjP8LzPr9BrweWwHbjPGNCoRD5ohk.jpg */
+
 .mid {
   /* background-color: #ffffff; */
   background-image: url(https://cdn.pixabay.com/photo/2011/12/14/12/21/christmas-background-11107_1280.jpg);
 }
-/* https://cdn.pixabay.com/photo/2011/12/14/12/21/christmas-background-11107_1280.jpg */
-/* https://t3.ftcdn.net/jpg/10/81/24/12/360_F_1081241253_vgQhjP8LzPr9BrweWwHbjPGNCoRD5ohk.jpg */
 
 .tel {
   background-image: url(images/Sch-cat.jpeg) ;
@@ -209,7 +207,7 @@ button {
 .contr {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -237,9 +235,6 @@ button {
   align-items: center;
   gap: 16px;
 }
-/* .button {
-  display: flex;
-} */
 
 .pics {
   display:flex;
@@ -247,7 +242,6 @@ button {
   align-items: center;
   max-width: 800px;
   max-height: 800px;
-  /* width: 40%; */
   margin: 20px 30px 20px 10px;
 }
 
@@ -257,11 +251,6 @@ button {
   align-items: center;
 
 }
-
-/* .contr img {
-    width:calc(100% - 20px);
-    height:calc(100% - 20px);
-  } */
 
 @media only screen and (max-width:1450px) {
   .contr h1 {
@@ -276,12 +265,6 @@ button {
     width: auto;
   }
 }
-
-/* @media only screen and (max-width:1150px) {
-  .contr .pics img{
-    display: none;
-  }
-  } */
 
 @media only screen and (max-width:800px) {
   .contr header h1 {
@@ -326,7 +309,6 @@ button {
   margin : 0px;
   padding: 0px 0px 16px 4%;
 
-  /* color:#000000; */
   background-color: #282667a3;
   text-shadow: 0px 0px 10px #000000;
   border-radius: 0px;
@@ -343,8 +325,6 @@ button {
   display: flex;
   flex-direction: column;
 
-  /* font-size: 32px;
-  color: #000000; */
 }
 
 .txt_pic {
@@ -484,7 +464,6 @@ button {
 }
 
 .underline  div {
-  /* margin-left:200px; */
   display: flex;
   flex-direction: column;
   padding-top: 60px;
@@ -527,10 +506,6 @@ button {
 
 
 
-/*  */
-
-
-
 /* Mobile*/
 @media only screen and (max-width:440px) {
   .topnav {
@@ -565,7 +540,7 @@ button {
 
   .contr {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
@@ -665,16 +640,7 @@ button {
     font-size: 12px;
   }
 
-  /* .mobile_pics {
-    display: flex;
-    width: 120px;
-  } */
-
   .tel .contr .pics .mobile_pics {
     display: flex;
-    /* position: absolute;
-    max-width: 400px;
-    max-height: 400px;
-    width: 200px; */
 }
 }
