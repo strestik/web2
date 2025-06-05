@@ -124,7 +124,10 @@ button {
 /* Navigation top bar */
 .topnav {
   overflow: hidden;
-  position: relative;
+  position: sticky; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  box-shadow: 0px 0px 14px #000000;
   text-decoration: none;
 }
 
