@@ -236,6 +236,12 @@ button {
   gap: 16px;
 }
 
+.pic_cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .pics {
   display:flex;
   flex-direction: column;
@@ -269,7 +275,6 @@ button {
 @media only screen and (max-width:800px) {
   .contr header h1 {
     font-size: 28px;
-    margin-right: -64px;
   }
 
   .mid h2 {
@@ -540,7 +545,7 @@ button {
 
   .contr {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
   }
 
@@ -550,6 +555,10 @@ button {
 
   .pics_buttons {
     gap: 6px;
+  }
+
+  .pic_cont {
+    flex-direction: column;
   }
 
   button {
@@ -572,6 +581,7 @@ button {
     flex-direction: column;
     margin-left: 30px;
     height: 180px;
+    /* width: 100%; */
   }
 
   .page h2 {
@@ -580,6 +590,11 @@ button {
 
   .page .maintxt p {
     font-size: 18px;
+  }
+
+  .page header {
+    text-align: start;
+    padding: 0px 5% 16px 4%;
   }
 
   .page .maintxt button {
@@ -596,7 +611,7 @@ button {
 
   header {
     display: flex;
-    align-self: start;
+    align-self: center;
     margin: 6px 26px 6px 10px;
   }
 
