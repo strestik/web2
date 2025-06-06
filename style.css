@@ -397,6 +397,10 @@ button {
   align-items: center;
 }
 
+.odkz h2 {
+  text-shadow: 0px 0px 6px rgb(0, 0, 0);
+}
+
 .odkazy div {
   display: flex;
   justify-content: space-between;
@@ -416,6 +420,7 @@ button {
   text-decoration: none;
   background-color: #62B3FF;
   border-radius: 10px;
+  box-shadow: 0px 0px 12px rgb(0, 0, 0);
 
   padding: 36px;
   margin: 12px;
