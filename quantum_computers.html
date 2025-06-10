@@ -61,15 +61,100 @@
 
         <section id="home" class="mid">
 
-            <div class="contr">
-                <div class="maintxt">
-                    <p>Kvantové počítače</p>
-                </div>
-                <div class="pics">
-                    <img src="images/2.png" alt="Kvantová fyzika" width="400" height="100%">
-                </div>
+            
+            <div class="maintxt">
+                <p>Kvantové počítače jsou typem výpočetního zařízení, které využívá principy <b>kvantové mechaniky</b> – vědní oblasti 
+                    popisující chování částic na subatomární úrovni. Na rozdíl od klasických počítačů, které používají bity 
+                    (hodnoty 0 nebo 1), kvantové počítače pracují s <b>qubity (kvantové bity)</b>, které mohou být zároveň 0 i 1 díky 
+                    jevu zvanému superpozice.
+                </p>
 
             </div>
+
+            <div class="maintxt">
+                <p>Klíčové principy kvantových počítačů jsou : </p>
+
+                <li><strong>Superpozice</strong>- Qubit může být ve stavu 0, 1 nebo v kombinaci obou najednou či cokoli mezi tím. To 
+                    umožňuje kvantovým počítačům zpracovávat obrovské množství stavů současně.</li><br>
+                <li><strong>Propletení (entanglement)</strong>- Když jsou qubity propletené, stav jednoho ovlivňuje stav druhého, i 
+                    když jsou od sebe vzdálené. Tento jev zajišťuje velmi efektivní propojení mezi daty.</li><br>
+                <li><strong>Interference</strong> Kvantové algoritmy využívají interference k posílení správných výsledků výpočtu a 
+                    potlačení nesprávných.</li><br>
+                <li><strong>Měření</strong> Když změříme qubit, zhroutí se do klasického stavu (0 nebo 1). Proto je třeba kvantové 
+                    algoritmy navrhnout tak, aby výsledek měl vysokou pravděpodobnost správného výstupu.</li><br>
+                
+                <p>Kvantové počítače nejsou (zatím) náhradou klasických počítačů, ale doplňkem pro specifické typy výpočtů, které 
+                    jsou pro běžné počítače příliš náročné:
+
+                <li>Faktorování velkých čísel (např. prolomení šifrování RSA)</li>
+                <li>Simulace kvantových systémů v chemii a fyzice</li>
+                <li>Optimalizační problémy (např. logistika, trasy, alokace zdrojů)</li>
+                <li>Strojové učení a AI v extrémně náročných výpočtech</li>
+                </p>
+
+                <p>Kvantové počítače jsou stále ve fázi výzkumu a vývoje. Firmy jako IBM, Google, Microsoft a D-Wave již mají funkční 
+                    kvantové čipy s desítkami qubitů. Největší výzvou je kvantová dekoherence – qubity jsou velmi citlivé na prostředí 
+                    a snadno ztrácí svůj stav. Abychom dosáhli kvantové nadvlády (kdy kvantový počítač překoná klasický v praktickém 
+                    úkolu), je potřeba stabilních a škálovatelných systémů s tisíci qubitů a kvantovým korekčním kódem.
+                </p>
+                <hr>
+
+                <p><strong>Majoran 1</strong> je experimentální čip využívající <strong>částice jako qubity</strong>. Tyto kvazičástice jsou zvláštní tím, že 
+                    jsou vlastními antičásticemi – to znamená, že částice a antičástice jsou totožné. V kvantovém počítání to umožňuje 
+                    topologickou ochranu proti rušení z prostředí, což je zásadní pro stabilitu kvantových výpočtů.</p>
+
+                    <p><b>Výhody</b> Majorana qubitů:
+                    Vyšší stabilita díky topologickému uspořádání. Nižší chybovost. Potenciálně méně nutné korekce chyb než u běžných qubitů</p>
+
+                    <p><b>Omezení</b>:
+                    Velmi náročná fyzikální realizace (např. nutnost extrémně nízkých teplot a specifických nanostruktur)</p>
+
+                    Zatím se jedná spíše o výzkumný koncept – praktické nasazení je otázkou budoucnosti
+                </p>
+            </div>
+                <div class="contr">
+                    <div class="maintxt">
+                        <h4>🖥️ Klasický počítač</h4>
+                        <ul>
+                        <li><strong>Základní jednotka:</strong> Bit – může být buď 0, nebo 1.</li>
+                        <li><strong>Způsob výpočtu:</strong> Sekvenční výpočty pomocí logických operací.</li>
+                        <li><strong>Výkon:</strong> Výborný pro běžné úkoly, ale omezený u složitých simulací.</li>
+                        <li><strong>Stabilita:</strong> Vysoká, většina chyb je softwarová.</li>
+                        <li><strong>Použití:</strong> Univerzální – kancelář, hry, web, simulace.</li>
+                        </ul>
+                    </div>
+
+                    <div class="maintxt">
+                        <h4>⚛️ Kvantový počítač</h4>
+                        <ul>
+                        <li><strong>Základní jednotka:</strong> Qubit – může být 0, 1 nebo superpozice.</li>
+                        <li><strong>Způsob výpočtu:</strong> Paralelní výpočty díky kvantovým jevům.</li>
+                        <li><strong>Výkon:</strong> Vysoký pro specifické úkoly (např. simulace molekul).</li>
+                        <li><strong>Stabilita:</strong> Nízká – qubity jsou velmi citlivé na okolí.</li>
+                        <li><strong>Použití:</strong> Experimentální, zatím pro vybrané úlohy.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="maintxt" >
+                    <div class="pic_cont">
+                        <div class="pics"><img src="https://quantumai.google/static/site-assets/images/marketing/systems/hero.jpg" alt="Standartní kvantový počítač" width="40%" height="auto"><p>Klasický kvantový počítač</p></div>
+                        <div class="pics"><img src="https://quantum.scene7.com/is/image/quantum/QCOM_HW_Hero_Majorana1_Red_V3_1664x1248:320-539?$pngalpha$" alt="Majorana 1" width="80%" height="auto"><p>Kvantový čim Majorona 1</p></div>
+                    </div>
+                </div>
+                <div class="maintxt">
+                    <h4>🧬 Kvantový počítač s Majorana qubity (např. Majoron 1)</h4>
+                    <ul>
+                    <li><strong>Základní jednotka:</strong> Topologický qubit – chráněný pomocí Majorana částic.</li>
+                    <li><strong>Způsob výpočtu:</strong> Kvantové výpočty s vyšší stabilitou díky topologii.</li>
+                    <li><strong>Výkon:</strong> Potenciálně velmi vysoký s nižší chybovostí.</li>
+                    <li><strong>Stabilita:</strong> Výrazně vyšší – fyzikální odolnost proti dekoherenci.</li>
+                    <li><strong>Použití:</strong> Výzkumná fáze, ale velmi nadějný směr vývoje.</li>
+                    </ul>
+                </div>
+
+
+            
+
         </section>
 
 
